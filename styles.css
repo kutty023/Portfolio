@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.maincontainer{
+    /* display: flex; */
+}
+
+#container1{
+    border: 2px solid red;
+}
+
+#container2{
+    border: 2px solid green;
+    margin-top: 10px;
+    padding-top: 50px;
+}
+
+@media screen and (min-width:600px) {
+    #container2 h1{
+        font-size: 10px;
+    }
+}
